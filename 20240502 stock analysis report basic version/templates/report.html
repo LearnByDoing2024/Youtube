@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            padding: 20px;
+            margin: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        h1, h2 {
+            color: #007bff;
+        }
+        h1 {
+            margin-top: 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .plot {
+            margin-bottom: 20px;
+        }
+        .news-summary {
+            margin-top: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        .news-summary h2 {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .news-summary p {
+            font-size: 16px;
+            margin-bottom: 10px;
+            text-align: justify;
+        }
+        .url-list {
+            overflow-y: auto;
+            max-height: 150px;
+            margin-top: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .url-list ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .url-list li {
+            margin-bottom: 5px;
+        }
+        .url-list a {
+            color: #007bff;
+            text-decoration: none;
+            word-wrap: break-word;
+        }
+        .return-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .return-link a {
+            color: #007bff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Stock Report for {{ company_name }}</h1>
+        </header>
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Open</th>
+                    <th>High</th>
+                    <th>Low</th>
+                    <th>Close</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for index, row in stock_data.iterrows() %}
+                <tr>
+                    <td>{{ row['Date'] }}</td>
+                    <td>{{ row['Open'] }}</td>
+                    <td>{{ row['High'] }}</td>
+                    <td>{{ row['Low'] }}</td>
+                    <td>{{ row['Close'] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <div class="plot">
+            {{ plot_html | safe }}
+        </div>
+        <section class="news-summary">
+            <h2>News Summary</h2>
+            <p>
+                {{ news_summary | safe }}
+            </p>
+            <div class="url-list">
+                <ul>
+                    {% for url in news_urls %}
+                    <li><a href="{{ url }}" target="_blank">{{ url }}</a></li>
+                    {% endfor %}
+                </ul>
+                
+            </div>
+        </section>
+        <div class="return-link">
+            <a href="/">Return to Main Page</a>
+        </div>
+    </div>
+</body>
+</html>
