@@ -1,0 +1,102 @@
+0. Utilize existing news tool to get local data as DB
+    Utilize wiki pege as additional data source
+    Utilize gdpr law pdf as refrence document
+    Combine langchain documentation with lm studio code example
+    GPT-4 to refine coding
+
+1. duplicating the gnews package method to retrieve info
+    https://pypi.org/project/gnews/
+    gdpr_fines_0_s
+    gdpr_fines_wiki_0
+2. fix the encoding problem like euro sign
+3. first successful retrival of key info from just 1 news, is shown as gdpr_fines_0_s, s as successful
+4. get wikipedia table successful
+5. save gdpr law pdf
+6. building rag structure
+    https://python.langchain.com/docs/use_cases/question_answering/quickstart/
+
+GPT1
+To create a LangChain application that incorporates local large language models (LLMs) for GDPR law fine records, we need to set up an architecture that involves indexing the data for retrieval and utilizing a chat model for generating responses. Here's how to design and implement such a system, assuming we're processing the data from gdpr_fines.csv, gdpr_fines_wiki_0.csv, and the GDPR main law document CELEX_32016R0679_EN_TXT.
+
+System Design Overview
+Indexing:
+Load Data: Extract data from the given CSV files and text document.
+Split Data: Use text splitters to divide the large documents into manageable chunks.
+Store Data: Index these chunks in a vector store, allowing for quick retrieval.
+Retrieval and Generation:
+Retrieve Data: Based on user queries, retrieve relevant chunks from the index.
+Generate Response: Use a local LLM to generate a response based on the retrieved data.
+
+GPT2
+It seems like you're looking into using LangChain for managing and querying vector stores with a focus on asynchronous operations and using local embeddings for similarity searches. The description you've provided outlines a scenario where documents are indexed, queried, and the results are utilized to obtain meaningful answers based on similarity searches. Let's breakdown some of the key components and how you can apply them:
+
+Key Components and Their Usage
+Vector Stores: These are databases designed to handle large amounts of high-dimensional vectors, which are typically the output of embedding models. Vector stores allow you to perform efficient similarity searches to find the most relevant documents or data points based on your query.
+Embeddings: Before you can use a vector store, you need to convert your text or data into a form that the vector store can handle, i.e., embeddings. These are typically generated using models trained to capture semantic meanings of words, phrases, or entire documents.
+Chroma: A local vector store that can be used for embedding and retrieving documents without the need for an external service. It's useful for applications where you want to keep the data local for privacy or performance reasons.
+Asynchronous Operations: When dealing with IO-bound tasks, such as querying a vector store or retrieving data over a network, asynchronous operations can improve performance by not blocking the execution while waiting for the operation to complete.
+
+7. build langchain flow with two gpt suggestions
+   pay attention to llm interaction
+   pay attention to text splitter, embedding availability(suggestions will be given when error shows)
+
+8. handling pdf requires pdfplumber or other packages
+
+9. text spliter not working due to spacy package issue
+
+10. openai embedding issue, choosing google embedding model instead
+
+11. langchain_lmstudio.py result not usable, then further refinement:
+    version 1, better result and seems General
+    version 2, html output, compare with pure lm studio version
+
+    log_1
+    log_2
+    log_3
+
+12. pure lm studio version to be tested
+
+13. completion = client.chat.completions.create
+    pay attention of the LLM adjust this code part, better manual check accuracy
+    remaining issue: in lmstudio_only version, can not resolve user input mandatory constraint.
+
+14. Final version
+    langchain_lmstudio_2.py, with better html layout, better output
+    but the output consistancy should be better contained
+    lmstudio_only.py, same html improvement, but ouput quality is lower.
+
+    Chat gpt grading.
+15. the above tests are only utilizing vector store of GDPR law
+
+16. test on vector store on both gdpr law and gdpr fine data
+    langchain_lmstudio_3_full, consider full vector store
+    gdpr_compliance_report_2_0, include csv embedding
+    gdpr_compliance_report_2_1, improve prompt variable structure
+    
+17. found error in langchain_lmstudio_2, prompt variable was not utilized properly
+
+18. debug html
+
+19. debug data to be included in embedding
+
+20. debug search function to use cosine similarity
+
+21. df to tensor issue, debug
+    make sure df has no na
+    make sure df has no int
+
+22. final improvements
+    handle 2 vector search separately to ensure df can be reached.
+
+22. final version, langchain_lmstudio_4
+    both df and pdf to text to be handled
+    saving debug records
+    increasing token limit could improve result, but not guaranteed
+    no significant improvement compared to results in previous versions where only pdf was
+    looped to the prompt improvement(I recognize this as premitive RAG)
+    two penalties introduced to limit repeat error code in the end(test on changing temparature and token limit, all failed. promt format engineering not tested yet.)
+
+
+24. Conclusion
+    GPT 4 and other models read the langchain doc but could not incorporate to my project.
+    The code is a quasi langchain result, already have embedding, vector search, similarity concepts.
