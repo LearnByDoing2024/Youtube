@@ -1,0 +1,79 @@
+import pandas as pd
+import pdfplumber
+import nltk
+import tensorflow_hub as hub
+import numpy as np
+from openai import OpenAI
+
+# Ensure nltk resources are available
+nltk.download('punkt')
+
+class SimpleVectorStore:
+    def __init__(self):
+        self.documents = []
+        self.embeddings = []
+
+    def add_document(self, embedding, document):
+        self.embeddings.append(embedding)
+        self.documents.append(document)
+
+    def search(self, query_embedding, top_k=5):
+        # Naive search: returns the first `top_k` documents
+        return self.documents[:top_k]
+
+# Load Google's Universal Sentence Encoder
+embed = hub.load("https://tfhub.dev/google/universal-sentence-encoder/4")
+
+def embed_text(text_chunks):
+    # Embeds text using Google's Universal Sentence Encoder
+    return embed(text_chunks).numpy()
+
+def load_csv_data(filenames):
+    return pd.concat([pd.read_csv(f) for f in filenames])
+
+def load_and_extract_text_from_pdf(file_path):
+    text_content = []
+    with pdfplumber.open(file_path) as pdf:
+        for page in pdf.pages:
+            text = page.extract_text()
+            if text:
+                text_content.append(text)
+    return " ".join(text_content)
+
+def nltk_sentence_splitter(text):
+    return nltk.tokenize.sent_tokenize(text)
+
+def load_and_split_text(file_path):
+    document_text = load_and_extract_text_from_pdf(file_path)
+    return nltk_sentence_splitter(document_text)
+
+def setup_vector_store(text_chunks):
+    vector_store = SimpleVectorStore()
+    embeddings = embed_text(text_chunks)
+    for chunk, embedding in zip(text_chunks, embeddings):
+        vector_store.add_document(embedding, chunk)
+    return vector_store
+
+# Local LLM setup
+client = OpenAI(base_url="http://localhost:1234/v1", api_key="your_lm_studio_api_key")
+
+def generate_response(query, vector_store):
+    query_embedding = embed_text([query])[0]
+    similar_docs = vector_store.search(query_embedding)
+    prompt = " ".join(similar_docs) + "\n\n" + query
+    completion = client.completions.create(
+        model="lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF",
+        prompt=prompt,
+        max_tokens=500
+    )
+    return completion.choices[0].text
+
+
+# Main execution
+if __name__ == "__main__":
+    gdpr_data = load_csv_data(['gdpr_fines.csv', 'gdpr_fines_wiki_0.csv'])
+    gdpr_text_chunks = load_and_split_text('CELEX_32016R0679_EN_TXT.pdf')
+    vector_store = setup_vector_store(gdpr_text_chunks)
+    user_query = "We are an IT company, how can we mitigate gdpr compliance risk, and what are the penalties for non-compliance with GDPR?"
+    final_answer = generate_response(user_query, vector_store)
+    print(final_answer)

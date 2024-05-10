@@ -1,0 +1,61 @@
+Date,Organisation,Amount,Issued by,Reason(s)
+2018-10,Hospital do Barreiro,"€400,000",Portugal (CNPD),"""...based on access policies to databases, which allowed technicians and physicians to consult patients’ clinical files, without proper authorization.""[2]"
+2018-11-21,Knuddels.de (German social network),"€20,000",Germany (LfDI),"""...unauthorized access to and disclosure of personal data of around 330,000 users, including passwords and email addresses.""[3]"
+2019-01-21,Google LLC,"€50,000,000",France (CNIL),"Insufficient transparency, control, and consent over the processing of personal data for the purposes of behavioural advertising.[4][5]"
+2019-03-07,Unnamed bank,"€1,560",Hungary (NAIH),Failure to erase and correct data at the request of the data subject. [6]
+2019-03-07,Unnamed debt collector,"€1,560",Hungary (NAIH),Breaching the principles of transparency and data minimisation. [7]
+2019-03-15,"Bisnode (business, credit and market information)","€220,000",Poland (UODO),Covert scraping of personal data.[8]
+2019-03-16,Lower Silesian Football Association,"€13,000",Poland (UODO),Listing personal information of 585 referees on its website.[9]
+2019-04-04,Rousseau (participatory democracy platform),"€50,000",Italy (GPDP),Failing to protect users' personal data.[10]
+2019-05-08,The Municipality of Bergen,"€170,000",Norway (Datatilsynet),"File with login credentials for 35,000 students and employees found in a public storage area.[11]"
+2019-05-16,MisterTango UAB (payment services),"€61,500",Lithuania (ADA),Processing more personal data than is necessary for effecting of the payment.[12]
+2019-05-28,Unnamed Belgian mayor,"€2,000",Belgium (GBA/APD),Misuse of personal data collected for local administrative purposes for election campaign purposes.[13]
+2019-06,La Liga,"€250,000",Spain (AEPD),"Poorly disclosing purpose for requesting GPS and microphone permissions within the football league's mobile app. When the app was open, it transmitted the user's location if it detected an acoustic fingerprint embedded within game telecasts. This was used to help pinpoint the locations of venues that may be screening the games from unauthorized feeds.[14][15]"
+2019-06-11,IDDesign A/S (furniture),"DKK 1,500,000",Denmark (Datatilsynet),Failure to delete personal data from an older system: processing personal data for a longer time than necessary.[16]
+2019-06-18,Unnamed police officer,"€1,400",Germany (LfDI),Autonomously processing personal data for non-legal purposes.[17]
+2019-06-18,Sergic (real estate services),"€400,000",France (CNIL),Failure to implement appropriate security measures; failure to define appropriate data retention periods for the personal data of unsuccessful rental candidates.[18]
+2019-06-18,Uniontrad Company (translation services),"€20,000",France (CNIL),"Excessive video surveillance of employees; single, shared password for messaging system; ignoring earlier CNIL order to change practices.[19]"
+2019-06-24,EE (telecoms),"£100,000",UK (ICO),"Sending over 2.5 million direct marketing messages to its customers, without consent.[20][21]"
+2019-06-27,UniCredit Bank Romania,"€130,000",Romania (ANSPDCP),Failure to implement appropriate technical and organisational measures[22][23]
+2019-07-08,British Airways,"£183,000,000",UK (ICO),"Use of poor security arrangements that resulted in a 2018 web skimming attack affecting 500,000 consumers.[24][25][26] Was later reduced to £20 million [27]"
+2020-10-30,Marriott International,"£18,400,000",UK (ICO),Failure to keep millions of customers’ personal data secure[28]
+2019-07-03,Cathay Pacific,"£500,000",UK (ICO),Failure to protect the security of its customers’ personal data. Between October 2014 and May 2018 Cathay Pacific’s computer systems lacked appropriate security measures which led to customers’ personal details being exposed[29]
+2019-07-16,HagaZiekenhuis,"€460,000",The Netherlands (AP),Insufficient security of medical records[30][31]
+2019-07-25,Active Assurances,"€180,000",France (CNIL),Failure to implement appropriate security measures.[32]
+2019-07-25,PricewaterhouseCoopers,"€150,000",Greece (HDPA),Unlawful processing of employee data.[33]
+2019-08-21,Skellefteå High School Board,"€20,000",Sweden (SDPA),Using facial recognition technology to monitor the attendance of students in school on an invalid legal basis; processing sensitive biometric data unlawfully and failure to do an adequate impact assessment including seeking prior consultation with the Swedish DPA.[34]
+2019-??-??,Unnamed company,"€3,135",Hungary (NAIH),Infringing a data subject's access rights. [35]
+2019-08-12,Unnamed medical company,"€55,000",Austria (DSB),"Not appointing a DPO, not publishing its contact details or reporting those to the supervisory authority, obligatory consent of data subjects (Art. 7), not providing information (Art. 13, 14), no DPIA despite handling sensitive data (Art. 35). [36]"
+2019-08-12,Unnamed online retailer,"€7,000",Latvia (DSI),Nonconformity with data subjects rights to erasure and non-cooperation with the supervisory authority. [37]
+2019-09-19,Unnamed retailer,"€10,000",Belgium (GBA/APD),Demanding an electronic identity card to create a customer loyalty card.[38]
+2019-10-17,Vueling Airlines,"€30,000",Spain (AEPD),"Failing to obtain valid consent to process customer cookies, as per privacy notice. [39]"
+2019-12-09,1&1 Ionos,"€9,550,000",Germany (BfDI),"Insufficient protection of personal data, failing to put “sufficient technical and organizational measures” in place to protect customer data in its call centers. Violation of article 32 of GDPR [40]"
+2019-12-17,Doorstep Dispensaree,"£275,000",UK (ICO),"""cavalier attitude to data protection”, having left 500,000 patient records in an unsecured location [41]"
+2020-01-15,TIM S.p.A.,"€27,800,000",Italy (GPDP),Unlawful processing for marketing purposes[42]
+2020-03-10,Google LLC,SEK 75 M (€7 M),Sweden (SDPA),Right-to-be-forgotten violations[43]
+2020-07-06,BKR,"€840,000",The Netherlands (AP),"Failing to give access to personal data free of charge, failing to provide easy means of accessing the data, putting unreasonable limits on the number of requests per individual [44]"
+2020-07-14,Google LLC (Google Belgium),"€600,000",Belgium (GBA/APD),Failure to respect a citizen's right to be forgotten.[45]
+2020-10-01,H&M,"€35,300,000",Germany (HmbBfDI),Illegal surveillance of several hundred employees[46]
+2020-12-10,Amazon Europe Core Sarl,"€35,000,000",France (CNIL),Deposit of cookies without obtaining consent and lack of information provided to users[47]
+2020-12-10,Google LLC,"€60,000,000",France (CNIL),"Deposit of cookies without obtaining consent, lack of information provided to users and defective ""opposition"" mechanism [48]"
+2020-12-10,Google Ireland Limited,"€40,000,000",France (CNIL),"Deposit of cookies without obtaining consent, lack of information provided to users and defective ""opposition"" mechanism [48]"
+2021-01-26,Grindr LLC,NOK 65 M (€6.5 M),Norway (Datatilsynet),Sharing special category data without valid consent[49]
+2021-03-10,Filigrana Comunicación,"€8,000",Spain (AEPD),"Violation of Article 6(1)(a), 6(1)(f), 13 and 14 GDPR by collecting and re-using data from the Andalusian Education Department without a legitimate basis, and not fulfilling their information obligations."
+2021-03-17,Miljø- og Kvalitetsledelse AS,"€3,500 (NOK 35,000)",Norway (Datatilsynet),"Violation of Article 6(1) and Article 5(1)(a) of the GDPR by sharing a CCTV recording of a data subject vandalising a property with the data subject's employer, without a legal basis.[50][51]"
+2021-03-18,Air Europa Líneas Aéreas S.A.,"€600,000",Spain (AEPD),"infringement of Articles 32(1) and 33 GDPR, due to the lack of appropriate technical and organisational measures and of an adequate level of security and due to the delay in the notification of a personal data breach.[52]"
+2021-03-22,FURNISHYOURSPACE SL,"€3,000",Spain (AEPD),"Infringing the Spanish Law regulating cookies after an investigation launched due to a complaint referred by the Berlin DPA, for offering unclear information and not giving the option of rejecting the cookies.[53]"
+2021-03-24,CP&A B.V.,"€15,000",The Netherlands (AP),"Violation of Article 4(15) GDPR, Article 9 GDPR and Article 32 GDPR by processing the health data of sick employees, and for failing to implement appropriate security measures regarding such processing[54][55]"
+2021-04-07,"Orange Espagne, S.A.U.","€150,000 (reduced to €90,000)",Spain (AEPD),"Violation of Articles 6(1)(a) and 7 GDPR, as well as Article 21(1) LSSI, by sending bulk unsolicited commercial communications without adequately obtaining the consent of the users.[56][57]"
+2021-04-14,Natural person (landlord),€3000,Spain (AEPD),Violating Articles 5(1)(c) and 13 GDPR in relation to a video surveillance system in an apartment building.[58]
+2021-04-15,"Vodafone Espana, S.A.U.","€150,000 (reduced to €90,000)",Spain (AEPD),"Violation of Article 6(1)(a) GDPR by processing personal data without consent or any other legal basis. When imposing the fine, the AEPD took into account: The type of data affected: basic identifiers such as names, surnames, phone number. The relation between the processing and the business activities of the respondent. The previous fines on the same grounds. The lack of diligence regarding the erasure request. The AEPD finally fined Vodafone €150,000, that was reduced to €90,000 due to the assumption of responsibility and the early payment.[59][60]"
+2021-04-22,Cyfrowy Polsat Spółka Akcyjna,"€250,000",Poland (UODO),Violation of Articles 24(1) and 32(1) and (2) GDPR by not implementing appropriate technical and organisational measures to ensure the security of personal data when cooperating with a courier company[61][62]
+2021-05-04,"EDP Comercializadora, S.A.U.","€1,500,000",Spain (AEPD),"Violation of Articles 6, 13, 22 and 25 GDPR by not providing sufficient information to data subjects, and for not implementing adequate measures to avoid or mitigate risks related to the data processing.[63][64]"
+2021-05-04,"EDP ENERGÍA, S.A.U.","€1,500,000",Spain (AEPD),"Violation of Articles 6, 13, 22 and 25 GDPR by not providing sufficient information to data subjects, and for not implementing adequate measures to avoid or mitigate risks related to the data processing.[65][66]"
+2021-05-06,Owner's association in Iasi,"€500 (RON 2,463.30)",Romania (ANSPDCP),"Violation of Articles 58(1)(a), 58(1)(e), 83(5)(e) GDPR as well as of Article 8 of Government Ordinance No 2/2001, by violating the obligation to cooperate with the DPA during an investigation by failing to provide the information requested[67][68]"
+2021-05-11,PVV (Overijssel),"€7,500",The Netherlands (AP),"Violation of Articles 4(12), 9(1) GDPR and 33(1) GDPR by unauthorised disclosure of a mailing list containing 101 email addresses, and failing to notify this breach to the DPA. The email addresses constituted special category data revealing political party opinions.[69][70]"
+2021-05,Locatefamily.com,"€525,000",The Netherlands (AP),Failure to appoint a representative pursuant to article 27[71]
+2021-06-16,Amazon Europe Core Sarl,"€746,000,000",Luxembourg (CNPD),The largest fine for violating GDPR at the time. Related to targeted advertising. [72][73]
+2021-09-02,WhatsApp Ireland Ltd,€225 M,Ireland,[74]
+2021-12-16,Psykoterapiakeskus Vastaamo,"€608,000",Finland,Failure to protect sensitive medical data.[75]
+2022-12-14,Viking Line,"€230,000",Finland,The Office of the Data Protection Ombudsman's Sanctions Board has imposed an administrative fine on Viking Line Oy Abp for data protection violations related to the processing of its employees' health data. [76]
+2023-05-12,Meta Platforms,€1.2 billion,Ireland,Transferring data from the European Union to the United States without adequate privacy protections[77][78]
