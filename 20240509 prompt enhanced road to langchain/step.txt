@@ -1,0 +1,116 @@
+STEP BY STEP COMMENT:
+
+PART 1
+ fine_history_0_s.py
+ fine_history_wiki.py
+ manual dowloading GDPR law pdf
+
+PART 2
+ langchain_lmstudio_4
+
+line-by-line explanation of the code, along with the general workflow sequence:
+
+Importing libraries and setting up resources
+
+import pandas as pd: Import the pandas library and assign it the alias pd.
+import pdfplumber: Import the pdfplumber library for working with PDF files.
+import nltk: Import the Natural Language Toolkit (NLTK) library for natural language processing tasks.
+import tensorflow_hub as hub: Import the TensorFlow Hub library for working with pre-trained models.
+import numpy as np: Import the NumPy library and assign it the alias np.
+from openai import OpenAI: Import the OpenAI library for interacting with the OpenAI API.
+import tensorflow as tf: Import the TensorFlow library for building and running machine learning models.
+import os as os: Import the OS library and assign it the alias os.
+from numpy.linalg import norm: Import the norm function from NumPy's linear algebra module.
+Ensuring NLTK resources are available
+
+nltk.download('punkt'): Download the NLTK data package for tokenization ( sentence splitting).
+
+Defining a Simple Vector Store class
+
+    11-24. Define a SimpleVectorStore class that stores document embeddings and corresponding text documents. The class has methods for adding documents, searching for similar documents based on embeddings, and retrieving the top-k similar documents.
+
+Loading the Universal Sentence Encoder
+
+embed = hub.load("https://tfhub.dev/google/universal-sentence-encoder/4"): Load the pre-trained Universal Sentence Encoder model from TensorFlow Hub.
+Defining functions for text processing and embedding
+
+26-33. Define functions for:
+    * embed_text: Convert a list of text chunks to embeddings using the Universal Sentence Encoder.
+    * load_csv_data: Load CSV files into a single Pandas DataFrame.
+    * csv_to_text: Convert a CSV file to a text file with each row represented as a string.
+    * load_and_extract_text: Extract text from a file (PDF or text file).
+    * nltk_sentence_splitter: Split text into sentences using NLTK.
+    * load_and_split_text: Load and split text into sentences.
+
+Defining functions for setting up vector stores(2)
+
+34-41. Define functions for:
+    * setup_vector_store_1: Set up a vector store with text chunks from a PDF file.
+    * setup_vector_store_2: Set up a vector store with text chunks from a CSV file.
+
+Defining the generate_response function
+
+42-51. Define a function generate_response that takes a query, two vector stores, and generates a response using the OpenAI API. The function:
+    * Embeds the query using the Universal Sentence Encoder.
+    * Searches for similar documents in both vector stores.
+    * Creates a prompt by joining the similar documents and the query.
+    * Uses the OpenAI API to generate a response to the prompt.
+
+Defining functions for saving reports
+
+52-63. Define functions for:
+    * save_to_html: Save a query and response to an HTML file.
+    * save_debug_info_to_html: Save debug information (e.g., dataframes, text chunks, embeddings) to an HTML file.
+
+Main execution
+
+64-73. The main execution sequence:
+    * Load CSV data and convert it to text.
+    * Load and split text from a PDF file and a CSV file.
+    * Set up two vector stores using the text chunks.
+    * Define a user query.
+    * Generate a response using the generate_response function.
+    * Print the response.
+    * Save the query and response to an HTML file.
+    * Save debug information to an HTML file.
+
+The general workflow sequence is:
+
+    Load and preprocess data (CSV and PDF files).
+    Set up vector stores using the preprocessed data.
+    Define a user query.
+    Generate a response using the vector stores and the OpenAI API.
+    Save the query and response to an HTML file.
+    Save debug information to an HTML file.
+
+
+        version_4 solved df tensor issue by converting df to txt
+        version_4 involves data cleaning
+        version_4 incoporated txt doc handling
+        version_4 change the data input as text imput, text_chunks_1
+        
+
+GENERAL COMMENT:
+
+"The code extracts and processes textual data from documents and structured data from CSV 
+files. It uses embeddings to determine the relevance of stored documents to a user's prompt. 
+It then combines these relevant documents with the prompt to query a language model (LLM), 
+generating a comprehensive response."
+
+    Regarding database management, the script does not explicitly manage a database like SQL or NoSQL
+    databases. However, it does implement basic data management through the following mechanisms:
+
+    Vector Store as a Simple Data Repository:
+    The SimpleVectorStore class acts as a rudimentary in-memory storage system, managing embeddings 
+    and their associated text documents. While not a database in the traditional sense, it functions
+    similarly by storing and retrieving data based on similarity in a vector space.
+    
+    Data Loading and Concatenation:
+    The script loads data from CSV files into pandas DataFrames, which are powerful data structures
+    for manipulating tabular data. This isn't database management per se, but it is a form of data 
+    handling that involves querying and merging data, akin to some database operations.
+    
+    If your application requires more sophisticated data handling or persistent storage, integrating 
+    a proper database system (like SQLite for smaller scale or PostgreSQL for larger scale 
+    applications) might be necessary. This would provide robust data management capabilities 
+    such as indexing, more complex queries, concurrent data access, and persistence.
