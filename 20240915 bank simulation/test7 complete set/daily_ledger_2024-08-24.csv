@@ -1,0 +1,11 @@
+entry_id,date,transaction_id,account,debit,credit,description
+47,2024-08-24,21,Client Deposits,170.91,0.0,Loan Payment from Client 1
+48,2024-08-24,21,Loans and Advances,0.0,170.91,Loan Payment Received from Client 1
+49,2024-08-24,22,Client Deposits,233.43,0.0,Loan Payment from Client 2
+50,2024-08-24,22,Loans and Advances,0.0,233.43,Loan Payment Received from Client 2
+51,2024-08-24,23,Cash,373.13,0.0,Deposit from Client 3
+52,2024-08-24,23,Client Deposits,0.0,373.13,Deposit to Client 3 Account
+53,2024-08-24,24,Client Deposits,729.97,0.0,Loan Payment from Client 4
+54,2024-08-24,24,Loans and Advances,0.0,729.97,Loan Payment Received from Client 4
+55,2024-08-24,25,Client Deposits,387.76,0.0,Loan Payment from Client 5
+56,2024-08-24,25,Loans and Advances,0.0,387.76,Loan Payment Received from Client 5

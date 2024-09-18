@@ -1,0 +1,17 @@
+entry_id,date,transaction_id,account,debit,credit,description
+390,2024-09-14,176,Client Deposits (EUR),524.12,0.0,Loan Payment from Client 1
+391,2024-09-14,176,Loans and Advances,0.0,497.91,Loan Principal Received from Client 1
+392,2024-09-14,176,Interest Income,0.0,26.21,Interest Income from Client 1
+393,2024-09-14,177,Client Deposits (USD),6.76,0.0,Fee Charged to Client 2
+394,2024-09-14,177,Fee Income,0.0,6.76,Fee Income from Client 2
+395,2024-09-14,178,Nostro Account (EUR),624.53,0.0,Deposit from Client 3
+396,2024-09-14,178,Client Deposits (EUR),0.0,624.53,Deposit to Client 3 Account
+397,2024-09-14,179,Client Deposits (GBP),115.46,0.0,Loan Payment from Client 4
+398,2024-09-14,179,Loans and Advances,0.0,109.69,Loan Principal Received from Client 4
+399,2024-09-14,179,Interest Income,0.0,5.77,Interest Income from Client 4
+400,2024-09-14,180,Loans and Advances,82829.49,0.0,Loan Disbursed to Client 5
+401,2024-09-14,180,Nostro Account (EUR),0.0,82829.49,Loan Disbursed to Client 5
+402,2024-09-14,181,Administrative Expenses,1371.9,0.0,Administrative Expenses
+403,2024-09-14,181,Nostro Account (EUR),0.0,1371.9,Administrative Expenses
+404,2024-09-14,182,Tax Expense,1947.47,0.0,Tax Payment
+405,2024-09-14,182,Nostro Account (EUR),0.0,1947.47,Tax Payment

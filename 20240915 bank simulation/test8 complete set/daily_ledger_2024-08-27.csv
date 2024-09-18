@@ -1,0 +1,15 @@
+entry_id,date,transaction_id,account,debit,credit,description
+112,2024-08-27,50,Client Deposits (EUR),3.97,0.0,Fee Charged to Client 1
+113,2024-08-27,50,Fee Income,0.0,3.97,Fee Income from Client 1
+114,2024-08-27,51,Nostro Account (USD),525.02,0.0,Deposit from Client 2
+115,2024-08-27,51,Client Deposits (USD),0.0,525.02,Deposit to Client 2 Account
+116,2024-08-27,52,Client Deposits (EUR),218.38,0.0,Withdrawal from Client 3 Account
+117,2024-08-27,52,Nostro Account (EUR),0.0,218.38,Cash paid to Client 3
+118,2024-08-27,53,Client Deposits (GBP),3.24,0.0,Fee Charged to Client 4
+119,2024-08-27,53,Fee Income,0.0,3.24,Fee Income from Client 4
+120,2024-08-27,54,Client Deposits (EUR),609.33,0.0,Withdrawal from Client 5 Account
+121,2024-08-27,54,Nostro Account (EUR),0.0,609.33,Cash paid to Client 5
+122,2024-08-27,55,Administrative Expenses,1465.82,0.0,Administrative Expenses
+123,2024-08-27,55,Nostro Account (EUR),0.0,1465.82,Administrative Expenses
+124,2024-08-27,56,Tax Expense,1108.72,0.0,Tax Payment
+125,2024-08-27,56,Nostro Account (EUR),0.0,1108.72,Tax Payment

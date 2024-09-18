@@ -1,0 +1,13 @@
+entry_id,date,transaction_id,account,debit,credit,description
+311,2024-09-17,141,Client Deposits,449.38,0.0,Withdrawal from Client 1 Account
+312,2024-09-17,141,Cash,0.0,449.38,Cash paid to Client 1
+313,2024-09-17,142,Client Deposits (USD),674.78,0.0,FX Transaction Deduct from Client 2 Account
+314,2024-09-17,142,Client Deposits (GBP),0.0,522.178503,FX Transaction Add to Client 2 Account
+315,2024-09-17,142,FX Gain,0.0,2.597902999999974,FX Gain from Client 2
+316,2024-09-17,143,Client Deposits,595.01,0.0,Loan Payment from Client 3
+317,2024-09-17,143,Loans and Advances,0.0,595.01,Loan Payment Received from Client 3
+318,2024-09-17,144,Client Deposits,7.79,0.0,Fee Charged to Client 4
+319,2024-09-17,144,Fee Income,0.0,7.79,Fee Income from Client 4
+320,2024-09-17,145,Client Deposits (EUR),881.21,0.0,FX Transaction Deduct from Client 5 Account
+321,2024-09-17,145,Client Deposits (GBP),0.0,752.7736424999999,FX Transaction Add to Client 5 Account
+322,2024-09-17,145,FX Gain,0.0,3.745142499999929,FX Gain from Client 5

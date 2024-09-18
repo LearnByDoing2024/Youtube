@@ -1,0 +1,17 @@
+entry_id,date,transaction_id,account,debit,credit,description
+187,2024-09-01,85,Loans and Advances,92968.21,0.0,Loan Disbursed to Client 1
+188,2024-09-01,85,Nostro Account (EUR),0.0,92968.21,Loan Disbursed to Client 1
+189,2024-09-01,86,Client Deposits (USD),936.17,0.0,Loan Payment from Client 2
+190,2024-09-01,86,Loans and Advances,0.0,889.3599999999999,Loan Principal Received from Client 2
+191,2024-09-01,86,Interest Income,0.0,46.81,Interest Income from Client 2
+192,2024-09-01,87,Nostro Account (EUR),885.52,0.0,Deposit from Client 3
+193,2024-09-01,87,Client Deposits (EUR),0.0,885.52,Deposit to Client 3 Account
+194,2024-09-01,88,Client Deposits (GBP),778.53,0.0,Loan Payment from Client 4
+195,2024-09-01,88,Loans and Advances,0.0,739.6,Loan Principal Received from Client 4
+196,2024-09-01,88,Interest Income,0.0,38.93,Interest Income from Client 4
+197,2024-09-01,89,Client Deposits (EUR),5.96,0.0,Fee Charged to Client 5
+198,2024-09-01,89,Fee Income,0.0,5.96,Fee Income from Client 5
+199,2024-09-01,90,Administrative Expenses,836.14,0.0,Administrative Expenses
+200,2024-09-01,90,Nostro Account (EUR),0.0,836.14,Administrative Expenses
+201,2024-09-01,91,Tax Expense,1857.66,0.0,Tax Payment
+202,2024-09-01,91,Nostro Account (EUR),0.0,1857.66,Tax Payment
