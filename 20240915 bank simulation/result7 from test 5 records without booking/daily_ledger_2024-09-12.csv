@@ -1,0 +1,8 @@
+transaction_id,date,client_id,type,amount,currency
+143,2024-09-12,1,fx_transaction_out,-486.07,EUR
+144,2024-09-12,1,fx_transaction_in,413.1595,GBP
+145,2024-09-12,2,loan_payment,-310.36,USD
+146,2024-09-12,3,fx_transaction_out,-327.44,EUR
+147,2024-09-12,3,fx_transaction_in,360.184,USD
+148,2024-09-12,4,loan_payment,-306.42,GBP
+149,2024-09-12,5,fee,-7.2002999999999995,EUR

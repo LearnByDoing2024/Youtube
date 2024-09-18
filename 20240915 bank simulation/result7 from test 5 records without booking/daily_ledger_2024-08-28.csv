@@ -1,0 +1,7 @@
+transaction_id,date,client_id,type,amount,currency
+53,2024-08-28,1,loan_payment,-213.89,EUR
+54,2024-08-28,2,withdrawal,-600.62,USD
+55,2024-08-28,3,deposit,674.93,EUR
+56,2024-08-28,4,withdrawal,-251.63,GBP
+57,2024-08-28,5,fx_transaction_out,-594.35,EUR
+58,2024-08-28,5,fx_transaction_in,505.1975,GBP

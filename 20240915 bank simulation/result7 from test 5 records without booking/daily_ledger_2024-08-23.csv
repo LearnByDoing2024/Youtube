@@ -1,0 +1,6 @@
+transaction_id,date,client_id,type,amount,currency
+21,2024-08-23,1,withdrawal,-252.72,EUR
+22,2024-08-23,2,withdrawal,-550.23,USD
+23,2024-08-23,3,withdrawal,-201.29,EUR
+24,2024-08-23,4,withdrawal,-472.06,GBP
+25,2024-08-23,5,deposit,909.26,EUR
