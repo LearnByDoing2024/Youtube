@@ -1,0 +1,6 @@
+transaction_id,date,client_id,type,amount,currency
+101,2024-09-05,1,withdrawal,-817.07,EUR
+102,2024-09-05,2,fee,-8.7736,USD
+103,2024-09-05,3,withdrawal,-797.57,EUR
+104,2024-09-05,4,deposit,385.55,GBP
+105,2024-09-05,5,fee,-5.6217999999999995,EUR

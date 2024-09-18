@@ -1,0 +1,4 @@
+transaction_id,date,client_id,type,amount,currency
+1,2024-09-17,1,deposit,500.0,EUR
+2,2024-09-17,2,withdrawal,200.0,USD
+3,2024-09-17,3,deposit,1000.0,EUR

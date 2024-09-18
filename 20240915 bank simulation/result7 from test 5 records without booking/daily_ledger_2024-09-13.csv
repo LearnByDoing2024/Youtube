@@ -1,0 +1,6 @@
+transaction_id,date,client_id,type,amount,currency
+150,2024-09-13,1,fee,-7.5600000000000005,EUR
+151,2024-09-13,2,deposit,669.15,USD
+152,2024-09-13,3,loan_payment,-883.1,EUR
+153,2024-09-13,4,loan_payment,-426.08,GBP
+154,2024-09-13,5,deposit,289.84,EUR
