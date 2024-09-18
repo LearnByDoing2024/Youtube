@@ -1,0 +1,12 @@
+entry_id,date,transaction_id,account,debit,credit,description
+244,2024-09-11,111,Client Deposits,726.92,0.0,Withdrawal from Client 1 Account
+245,2024-09-11,111,Cash,0.0,726.92,Cash paid to Client 1
+246,2024-09-11,112,Client Deposits,2.31,0.0,Fee Charged to Client 2
+247,2024-09-11,112,Fee Income,0.0,2.31,Fee Income from Client 2
+248,2024-09-11,113,Cash,954.52,0.0,Deposit from Client 3
+249,2024-09-11,113,Client Deposits,0.0,954.52,Deposit to Client 3 Account
+250,2024-09-11,114,Client Deposits,495.69,0.0,Withdrawal from Client 4 Account
+251,2024-09-11,114,Cash,0.0,495.69,Cash paid to Client 4
+252,2024-09-11,115,Client Deposits (EUR),630.28,0.0,FX Transaction Deduct from Client 5 Account
+253,2024-09-11,115,Client Deposits (USD),0.0,696.7745399999999,FX Transaction Add to Client 5 Account
+254,2024-09-11,115,FX Gain,0.0,3.4665399999998954,FX Gain from Client 5

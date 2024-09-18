@@ -1,0 +1,16 @@
+entry_id,date,transaction_id,account,debit,credit,description
+325,2024-09-10,148,Loans and Advances,88433.99,0.0,Loan Disbursed to Client 1
+326,2024-09-10,148,Nostro Account (EUR),0.0,88433.99,Loan Disbursed to Client 1
+327,2024-09-10,149,Nostro Account (USD),790.78,0.0,Deposit from Client 2
+328,2024-09-10,149,Client Deposits (USD),0.0,790.78,Deposit to Client 2 Account
+329,2024-09-10,150,Client Deposits (EUR),529.87,0.0,Withdrawal from Client 3 Account
+330,2024-09-10,150,Nostro Account (EUR),0.0,529.87,Cash paid to Client 3
+331,2024-09-10,151,Nostro Account (GBP),788.88,0.0,Deposit from Client 4
+332,2024-09-10,151,Client Deposits (GBP),0.0,788.88,Deposit to Client 4 Account
+333,2024-09-10,152,Client Deposits (EUR),645.5,0.0,FX Transaction Deduct from Client 5 Account
+334,2024-09-10,152,Client Deposits (GBP),0.0,551.4183749999999,FX Transaction Add to Client 5 Account
+335,2024-09-10,152,FX Gain,0.0,2.743374999999901,FX Gain from Client 5
+336,2024-09-10,153,Administrative Expenses,1773.91,0.0,Administrative Expenses
+337,2024-09-10,153,Nostro Account (EUR),0.0,1773.91,Administrative Expenses
+338,2024-09-10,154,Tax Expense,2691.34,0.0,Tax Payment
+339,2024-09-10,154,Nostro Account (EUR),0.0,2691.34,Tax Payment

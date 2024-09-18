@@ -1,0 +1,13 @@
+entry_id,date,transaction_id,account,debit,credit,description
+100,2024-08-29,46,Client Deposits (EUR),936.32,0.0,FX Transaction Deduct from Client 1 Account
+101,2024-08-29,46,Client Deposits (GBP),0.0,799.8513599999999,FX Transaction Add to Client 1 Account
+102,2024-08-29,46,FX Gain,0.0,3.979359999999815,FX Gain from Client 1
+103,2024-08-29,47,Client Deposits (USD),632.55,0.0,FX Transaction Deduct from Client 2 Account
+104,2024-08-29,47,Client Deposits (GBP),0.0,489.4988174999999,FX Transaction Add to Client 2 Account
+105,2024-08-29,47,FX Gain,0.0,2.4353174999999396,FX Gain from Client 2
+106,2024-08-29,48,Client Deposits,695.72,0.0,Loan Payment from Client 3
+107,2024-08-29,48,Loans and Advances,0.0,695.72,Loan Payment Received from Client 3
+108,2024-08-29,49,Client Deposits,5.62,0.0,Fee Charged to Client 4
+109,2024-08-29,49,Fee Income,0.0,5.62,Fee Income from Client 4
+110,2024-08-29,50,Client Deposits,225.66,0.0,Loan Payment from Client 5
+111,2024-08-29,50,Loans and Advances,0.0,225.66,Loan Payment Received from Client 5

@@ -1,0 +1,11 @@
+entry_id,date,transaction_id,account,debit,credit,description
+266,2024-09-13,121,Cash,410.15,0.0,Deposit from Client 1
+267,2024-09-13,121,Client Deposits,0.0,410.15,Deposit to Client 1 Account
+268,2024-09-13,122,Client Deposits,3.84,0.0,Fee Charged to Client 2
+269,2024-09-13,122,Fee Income,0.0,3.84,Fee Income from Client 2
+270,2024-09-13,123,Client Deposits,3.4,0.0,Fee Charged to Client 3
+271,2024-09-13,123,Fee Income,0.0,3.4,Fee Income from Client 3
+272,2024-09-13,124,Cash,734.65,0.0,Deposit from Client 4
+273,2024-09-13,124,Client Deposits,0.0,734.65,Deposit to Client 4 Account
+274,2024-09-13,125,Client Deposits,554.17,0.0,Loan Payment from Client 5
+275,2024-09-13,125,Loans and Advances,0.0,554.17,Loan Payment Received from Client 5

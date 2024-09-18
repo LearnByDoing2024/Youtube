@@ -1,0 +1,19 @@
+entry_id,date,transaction_id,account,debit,credit,description
+340,2024-09-11,155,Client Deposits (EUR),171.44,0.0,Loan Payment from Client 1
+341,2024-09-11,155,Loans and Advances,0.0,162.87,Loan Principal Received from Client 1
+342,2024-09-11,155,Interest Income,0.0,8.57,Interest Income from Client 1
+343,2024-09-11,156,Client Deposits (USD),4.98,0.0,Fee Charged to Client 2
+344,2024-09-11,156,Fee Income,0.0,4.98,Fee Income from Client 2
+345,2024-09-11,157,Client Deposits (EUR),893.83,0.0,FX Transaction Deduct from Client 3 Account
+346,2024-09-11,157,Client Deposits (USD),0.0,988.129065,FX Transaction Add to Client 3 Account
+347,2024-09-11,157,FX Gain,0.0,4.9160649999998896,FX Gain from Client 3
+348,2024-09-11,158,Client Deposits (GBP),952.47,0.0,FX Transaction Deduct from Client 4 Account
+349,2024-09-11,158,Client Deposits (EUR),0.0,1100.8172025,FX Transaction Add to Client 4 Account
+350,2024-09-11,158,FX Gain,0.0,5.476702499999874,FX Gain from Client 4
+351,2024-09-11,159,Client Deposits (EUR),376.62,0.0,FX Transaction Deduct from Client 5 Account
+352,2024-09-11,159,Client Deposits (GBP),0.0,321.72763499999996,FX Transaction Add to Client 5 Account
+353,2024-09-11,159,FX Gain,0.0,1.6006349999999543,FX Gain from Client 5
+354,2024-09-11,160,Administrative Expenses,581.08,0.0,Administrative Expenses
+355,2024-09-11,160,Nostro Account (EUR),0.0,581.08,Administrative Expenses
+356,2024-09-11,161,Tax Expense,1076.75,0.0,Tax Payment
+357,2024-09-11,161,Nostro Account (EUR),0.0,1076.75,Tax Payment

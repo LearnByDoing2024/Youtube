@@ -1,0 +1,25 @@
+transaction_id,date,client_id,type,amount,currency,description
+9,2024-08-21,2.0,loan_disbursement,88440.91,USD,Automatic loan_disbursement transaction
+11,2024-08-21,4.0,loan_disbursement,93230.44,GBP,Automatic loan_disbursement transaction
+26,2024-08-23,5.0,loan_disbursement,64663.15,EUR,Automatic loan_disbursement transaction
+37,2024-08-25,2.0,loan_disbursement,58607.81,USD,Automatic loan_disbursement transaction
+38,2024-08-25,3.0,loan_disbursement,95321.51,EUR,Automatic loan_disbursement transaction
+39,2024-08-25,4.0,loan_disbursement,95093.46,GBP,Automatic loan_disbursement transaction
+40,2024-08-25,5.0,loan_disbursement,79477.56,EUR,Automatic loan_disbursement transaction
+46,2024-08-26,4.0,loan_disbursement,51447.52,GBP,Automatic loan_disbursement transaction
+58,2024-08-28,2.0,loan_disbursement,67703.35,USD,Automatic loan_disbursement transaction
+66,2024-08-29,3.0,loan_disbursement,87213.91,EUR,Automatic loan_disbursement transaction
+67,2024-08-29,4.0,loan_disbursement,99566.55,GBP,Automatic loan_disbursement transaction
+73,2024-08-30,3.0,loan_disbursement,57151.53,EUR,Automatic loan_disbursement transaction
+80,2024-08-31,3.0,loan_disbursement,81776.87,EUR,Automatic loan_disbursement transaction
+85,2024-09-01,1.0,loan_disbursement,92968.21,EUR,Automatic loan_disbursement transaction
+95,2024-09-02,4.0,loan_disbursement,88210.83,GBP,Automatic loan_disbursement transaction
+99,2024-09-03,1.0,loan_disbursement,85862.81,EUR,Automatic loan_disbursement transaction
+131,2024-09-07,5.0,loan_disbursement,61288.09,EUR,Automatic loan_disbursement transaction
+134,2024-09-08,1.0,loan_disbursement,88016.47,EUR,Automatic loan_disbursement transaction
+135,2024-09-08,2.0,loan_disbursement,55063.83,USD,Automatic loan_disbursement transaction
+148,2024-09-10,1.0,loan_disbursement,88433.99,EUR,Automatic loan_disbursement transaction
+163,2024-09-12,2.0,loan_disbursement,72277.33,USD,Automatic loan_disbursement transaction
+180,2024-09-14,5.0,loan_disbursement,82829.49,EUR,Automatic loan_disbursement transaction
+186,2024-09-15,4.0,loan_disbursement,73944.02,GBP,Automatic loan_disbursement transaction
+198,2024-09-17,2.0,loan_disbursement,75070.97,USD,Automatic loan_disbursement transaction

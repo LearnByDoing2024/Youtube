@@ -1,0 +1,11 @@
+entry_id,date,transaction_id,account,debit,credit,description
+201,2024-09-07,91,Client Deposits,825.91,0.0,Loan Payment from Client 1
+202,2024-09-07,91,Loans and Advances,0.0,825.91,Loan Payment Received from Client 1
+203,2024-09-07,92,Client Deposits,5.69,0.0,Fee Charged to Client 2
+204,2024-09-07,92,Fee Income,0.0,5.69,Fee Income from Client 2
+205,2024-09-07,93,Cash,278.4,0.0,Deposit from Client 3
+206,2024-09-07,93,Client Deposits,0.0,278.4,Deposit to Client 3 Account
+207,2024-09-07,94,Client Deposits,183.18,0.0,Withdrawal from Client 4 Account
+208,2024-09-07,94,Cash,0.0,183.18,Cash paid to Client 4
+209,2024-09-07,95,Client Deposits,214.87,0.0,Loan Payment from Client 5
+210,2024-09-07,95,Loans and Advances,0.0,214.87,Loan Payment Received from Client 5

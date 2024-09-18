@@ -1,0 +1,17 @@
+entry_id,date,transaction_id,account,debit,credit,description
+1,2024-08-20,1,Client Deposits (EUR),663.02,0.0,FX Transaction Deduct from Client 1 Account
+2,2024-08-20,1,Client Deposits (GBP),0.0,566.3848349999998,FX Transaction Add to Client 1 Account
+3,2024-08-20,1,FX Gain,0.0,2.817834999999832,FX Gain from Client 1
+4,2024-08-20,2,Client Deposits (USD),524.11,0.0,FX Transaction Deduct from Client 2 Account
+5,2024-08-20,2,Client Deposits (EUR),0.0,474.057495,FX Transaction Add to Client 2 Account
+6,2024-08-20,2,FX Gain,0.0,2.358495000000005,FX Gain from Client 2
+7,2024-08-20,3,Client Deposits (EUR),9.52,0.0,Fee Charged to Client 3
+8,2024-08-20,3,Fee Income,0.0,9.52,Fee Income from Client 3
+9,2024-08-20,4,Client Deposits (GBP),5.46,0.0,Fee Charged to Client 4
+10,2024-08-20,4,Fee Income,0.0,5.46,Fee Income from Client 4
+11,2024-08-20,5,Nostro Account (EUR),892.3,0.0,Deposit from Client 5
+12,2024-08-20,5,Client Deposits (EUR),0.0,892.3,Deposit to Client 5 Account
+13,2024-08-20,6,Administrative Expenses,1216.48,0.0,Administrative Expenses
+14,2024-08-20,6,Nostro Account (EUR),0.0,1216.48,Administrative Expenses
+15,2024-08-20,7,Tax Expense,2958.02,0.0,Tax Payment
+16,2024-08-20,7,Nostro Account (EUR),0.0,2958.02,Tax Payment

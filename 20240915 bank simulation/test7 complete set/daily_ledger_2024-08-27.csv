@@ -1,0 +1,11 @@
+entry_id,date,transaction_id,account,debit,credit,description
+79,2024-08-27,36,Cash,711.97,0.0,Deposit from Client 1
+80,2024-08-27,36,Client Deposits,0.0,711.97,Deposit to Client 1 Account
+81,2024-08-27,37,Client Deposits,695.72,0.0,Withdrawal from Client 2 Account
+82,2024-08-27,37,Cash,0.0,695.72,Cash paid to Client 2
+83,2024-08-27,38,Client Deposits,427.08,0.0,Withdrawal from Client 3 Account
+84,2024-08-27,38,Cash,0.0,427.08,Cash paid to Client 3
+85,2024-08-27,39,Cash,788.68,0.0,Deposit from Client 4
+86,2024-08-27,39,Client Deposits,0.0,788.68,Deposit to Client 4 Account
+87,2024-08-27,40,Client Deposits,8.37,0.0,Fee Charged to Client 5
+88,2024-08-27,40,Fee Income,0.0,8.37,Fee Income from Client 5
