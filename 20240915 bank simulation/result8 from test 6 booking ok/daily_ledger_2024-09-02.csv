@@ -1,0 +1,11 @@
+entry_id,date,transaction_id,account,debit,credit,description
+165,2024-09-02,66,Cash/Bank,260.38,0.0,Deposit from Client 1
+166,2024-09-02,66,Client 1 Account,0.0,260.38,Deposit to Client 1 Account
+167,2024-09-02,67,Client 2 Account,437.57,0.0,Loan Payment from Client 2
+168,2024-09-02,67,Loan Receivable,0.0,437.57,Loan Payment Received from Client 2
+169,2024-09-02,68,Client 3 Account,6.4,0.0,Fee Charged to Client 3
+170,2024-09-02,68,Fee Income,0.0,6.4,Fee Income from Client 3
+171,2024-09-02,69,Client 4 Account,5.3,0.0,Fee Charged to Client 4
+172,2024-09-02,69,Fee Income,0.0,5.3,Fee Income from Client 4
+173,2024-09-02,70,Client 5 Account,1.62,0.0,Fee Charged to Client 5
+174,2024-09-02,70,Fee Income,0.0,1.62,Fee Income from Client 5

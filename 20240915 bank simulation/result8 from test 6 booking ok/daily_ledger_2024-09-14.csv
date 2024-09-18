@@ -1,0 +1,11 @@
+entry_id,date,transaction_id,account,debit,credit,description
+315,2024-09-14,126,Cash/Bank,527.82,0.0,Deposit from Client 1
+316,2024-09-14,126,Client 1 Account,0.0,527.82,Deposit to Client 1 Account
+317,2024-09-14,127,Client 2 Account,4.34,0.0,Fee Charged to Client 2
+318,2024-09-14,127,Fee Income,0.0,4.34,Fee Income from Client 2
+319,2024-09-14,128,Client 3 Account,671.03,0.0,Loan Payment from Client 3
+320,2024-09-14,128,Loan Receivable,0.0,671.03,Loan Payment Received from Client 3
+321,2024-09-14,129,Client 4 Account,401.44,0.0,Withdrawal from Client 4 Account
+322,2024-09-14,129,Cash/Bank,0.0,401.44,Withdrawal to Client 4
+323,2024-09-14,130,Client 5 Account,5.81,0.0,Fee Charged to Client 5
+324,2024-09-14,130,Fee Income,0.0,5.81,Fee Income from Client 5
