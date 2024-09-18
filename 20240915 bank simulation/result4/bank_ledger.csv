@@ -1,0 +1,272 @@
+Date,Transaction Type,Dr/Cr,Amount,Account,Balance After
+2024-09-16,Deposit,Credit,60952.5,Customer Deposits,5060952.5
+2024-09-16,Deposit,Debit,60952.5,Cash Reserves,1060952.5
+2024-09-16,Deposit Fee,Credit,6772.5,Fee Income,6772.5
+2024-09-16,Loan Disbursed,Debit,110981.7,Loans Outstanding,2110981.7
+2024-09-16,Loan Disbursed,Credit,110981.7,Cash Reserves,949970.8
+2024-09-16,Loan Fee,Credit,12331.3,Fee Income,19103.8
+2024-09-16,Client Payment,Debit,25333.0,Customer Deposits,5035619.5
+2024-09-16,Client Payment,Credit,25333.0,Cash Reserves,924637.8
+2024-09-16,Treasury Transaction,Credit,105557.0,NOSTRO Account,394443.0
+2024-09-16,Treasury Transaction,Debit,105557.0,Cash Reserves,1030194.8
+2024-09-16,Interest Income,Debit,6606.0,Cash Reserves,1036800.8
+2024-09-16,Interest Income,Credit,6606.0,Interest Income,6606.0
+2024-09-17,Deposit,Credit,34629.3,Customer Deposits,5070248.8
+2024-09-17,Deposit,Debit,34629.3,Cash Reserves,1071430.1
+2024-09-17,Deposit Fee,Credit,3847.7,Fee Income,22951.5
+2024-09-17,Loan Disbursed,Debit,160606.8,Loans Outstanding,2271588.5
+2024-09-17,Loan Disbursed,Credit,160606.8,Cash Reserves,910823.3
+2024-09-17,Loan Fee,Credit,17845.2,Fee Income,40796.7
+2024-09-17,Client Payment,Debit,26899.0,Customer Deposits,5043349.8
+2024-09-17,Client Payment,Credit,26899.0,Cash Reserves,883924.3
+2024-09-17,Treasury Transaction,Credit,89638.0,NOSTRO Account,304805.0
+2024-09-17,Treasury Transaction,Debit,89638.0,Cash Reserves,973562.3
+2024-09-17,Interest Income,Debit,14705.0,Cash Reserves,988267.3
+2024-09-17,Interest Income,Credit,14705.0,Interest Income,21311.0
+2024-09-18,Deposit,Credit,66852.0,Customer Deposits,5110201.8
+2024-09-18,Deposit,Debit,66852.0,Cash Reserves,1055119.3
+2024-09-18,Deposit Fee,Credit,7428.0,Fee Income,48224.7
+2024-09-18,Loan Disbursed,Debit,107707.5,Loans Outstanding,2379296.0
+2024-09-18,Loan Disbursed,Credit,107707.5,Cash Reserves,947411.8
+2024-09-18,Loan Fee,Credit,11967.5,Fee Income,60192.2
+2024-09-18,Client Payment,Debit,25583.0,Customer Deposits,5084618.8
+2024-09-18,Client Payment,Credit,25583.0,Cash Reserves,921828.8
+2024-09-18,Treasury Transaction,Credit,108057.0,NOSTRO Account,196748.0
+2024-09-18,Treasury Transaction,Debit,108057.0,Cash Reserves,1029885.8
+2024-09-18,Interest Income,Debit,7363.0,Cash Reserves,1037248.8
+2024-09-18,Interest Income,Credit,7363.0,Interest Income,28674.0
+2024-09-19,Deposit,Credit,72184.5,Customer Deposits,5156803.3
+2024-09-19,Deposit,Debit,72184.5,Cash Reserves,1109433.3
+2024-09-19,Deposit Fee,Credit,8020.5,Fee Income,68212.7
+2024-09-19,Loan Disbursed,Debit,81378.9,Loans Outstanding,2460674.9
+2024-09-19,Loan Disbursed,Credit,81378.9,Cash Reserves,1028054.4
+2024-09-19,Loan Fee,Credit,9042.1,Fee Income,77254.8
+2024-09-19,Client Payment,Debit,22638.0,Customer Deposits,5134165.3
+2024-09-19,Client Payment,Credit,22638.0,Cash Reserves,1005416.4
+2024-09-19,Treasury Transaction,Credit,88722.0,NOSTRO Account,108026.0
+2024-09-19,Treasury Transaction,Debit,88722.0,Cash Reserves,1094138.4
+2024-09-19,Interest Income,Debit,11273.0,Cash Reserves,1105411.4
+2024-09-19,Interest Income,Credit,11273.0,Interest Income,39947.0
+2024-09-20,Deposit,Credit,85664.7,Customer Deposits,5219830.0
+2024-09-20,Deposit,Debit,85664.7,Cash Reserves,1191076.0999999999
+2024-09-20,Deposit Fee,Credit,9518.3,Fee Income,86773.1
+2024-09-20,Loan Disbursed,Debit,221919.3,Loans Outstanding,2682594.1999999997
+2024-09-20,Loan Disbursed,Credit,221919.3,Cash Reserves,969156.7999999998
+2024-09-20,Loan Fee,Credit,24657.7,Fee Income,111430.8
+2024-09-20,Client Payment,Debit,21064.0,Customer Deposits,5198766.0
+2024-09-20,Client Payment,Credit,21064.0,Cash Reserves,948092.7999999998
+2024-09-20,Treasury Transaction,Credit,96149.0,NOSTRO Account,11877.0
+2024-09-20,Treasury Transaction,Debit,96149.0,Cash Reserves,1044241.7999999998
+2024-09-20,Interest Income,Debit,5523.0,Cash Reserves,1049764.7999999998
+2024-09-20,Interest Income,Credit,5523.0,Interest Income,45470.0
+2024-09-21,Deposit,Credit,25018.2,Customer Deposits,5223784.2
+2024-09-21,Deposit,Debit,25018.2,Cash Reserves,1074782.9999999998
+2024-09-21,Deposit Fee,Credit,2779.8,Fee Income,114210.6
+2024-09-21,Loan Disbursed,Debit,208729.8,Loans Outstanding,2891323.9999999995
+2024-09-21,Loan Disbursed,Credit,208729.8,Cash Reserves,866053.1999999997
+2024-09-21,Loan Fee,Credit,23192.2,Fee Income,137402.80000000002
+2024-09-21,Client Payment,Debit,13059.0,Customer Deposits,5210725.2
+2024-09-21,Client Payment,Credit,13059.0,Cash Reserves,852994.1999999997
+2024-09-21,Interest Income,Debit,7176.0,Cash Reserves,860170.1999999997
+2024-09-21,Interest Income,Credit,7176.0,Interest Income,52646.0
+2024-09-22,Deposit,Credit,40696.2,Customer Deposits,5251421.4
+2024-09-22,Deposit,Debit,40696.2,Cash Reserves,900866.3999999997
+2024-09-22,Deposit Fee,Credit,4521.8,Fee Income,141924.6
+2024-09-22,Loan Disbursed,Debit,206097.3,Loans Outstanding,3097421.2999999993
+2024-09-22,Loan Disbursed,Credit,206097.3,Cash Reserves,694769.0999999996
+2024-09-22,Loan Fee,Credit,22899.7,Fee Income,164824.30000000002
+2024-09-22,Client Payment,Debit,27415.0,Customer Deposits,5224006.4
+2024-09-22,Client Payment,Credit,27415.0,Cash Reserves,667354.0999999996
+2024-09-22,Interest Income,Debit,9360.0,Cash Reserves,676714.0999999996
+2024-09-22,Interest Income,Credit,9360.0,Interest Income,62006.0
+2024-09-23,Deposit,Credit,44539.2,Customer Deposits,5268545.600000001
+2024-09-23,Deposit,Debit,44539.2,Cash Reserves,721253.2999999996
+2024-09-23,Deposit Fee,Credit,4948.8,Fee Income,169773.1
+2024-09-23,Loan Disbursed,Debit,214032.6,Loans Outstanding,3311453.8999999994
+2024-09-23,Loan Disbursed,Credit,214032.6,Cash Reserves,507220.6999999996
+2024-09-23,Loan Fee,Credit,23781.4,Fee Income,193554.5
+2024-09-23,Client Payment,Debit,13326.0,Customer Deposits,5255219.600000001
+2024-09-23,Client Payment,Credit,13326.0,Cash Reserves,493894.6999999996
+2024-09-23,Interest Income,Debit,11040.0,Cash Reserves,504934.6999999996
+2024-09-23,Interest Income,Credit,11040.0,Interest Income,73046.0
+2024-09-24,Deposit,Credit,41709.6,Customer Deposits,5296929.2
+2024-09-24,Deposit,Debit,41709.6,Cash Reserves,546644.2999999996
+2024-09-24,Deposit Fee,Credit,4634.4,Fee Income,198188.9
+2024-09-24,Loan Disbursed,Debit,127494.0,Loans Outstanding,3438947.8999999994
+2024-09-24,Loan Disbursed,Credit,127494.0,Cash Reserves,419150.2999999996
+2024-09-24,Loan Fee,Credit,14166.0,Fee Income,212354.9
+2024-09-24,Client Payment,Debit,19526.0,Customer Deposits,5277403.2
+2024-09-24,Client Payment,Credit,19526.0,Cash Reserves,399624.2999999996
+2024-09-24,Interest Income,Debit,8988.0,Cash Reserves,408612.2999999996
+2024-09-24,Interest Income,Credit,8988.0,Interest Income,82034.0
+2024-09-25,Deposit,Credit,69584.4,Customer Deposits,5346987.600000001
+2024-09-25,Deposit,Debit,69584.4,Cash Reserves,478196.6999999996
+2024-09-25,Deposit Fee,Credit,7731.6,Fee Income,220086.5
+2024-09-25,Loan Disbursed,Debit,200617.2,Loans Outstanding,3639565.0999999996
+2024-09-25,Loan Disbursed,Credit,200617.2,Cash Reserves,277579.4999999996
+2024-09-25,Loan Fee,Credit,22290.8,Fee Income,242377.3
+2024-09-25,Client Payment,Debit,17564.0,Customer Deposits,5329423.600000001
+2024-09-25,Client Payment,Credit,17564.0,Cash Reserves,260015.4999999996
+2024-09-25,Interest Income,Debit,9008.0,Cash Reserves,269023.4999999996
+2024-09-25,Interest Income,Credit,9008.0,Interest Income,91042.0
+2024-09-26,Deposit,Credit,53228.7,Customer Deposits,5382652.300000001
+2024-09-26,Deposit,Debit,53228.7,Cash Reserves,322252.1999999996
+2024-09-26,Deposit Fee,Credit,5914.3,Fee Income,248291.59999999998
+2024-09-26,Loan Disbursed,Debit,116217.9,Loans Outstanding,3755782.9999999995
+2024-09-26,Loan Disbursed,Credit,116217.9,Cash Reserves,206034.2999999996
+2024-09-26,Loan Fee,Credit,12913.1,Fee Income,261204.69999999998
+2024-09-26,Client Payment,Debit,18749.0,Customer Deposits,5363903.300000001
+2024-09-26,Client Payment,Credit,18749.0,Cash Reserves,187285.2999999996
+2024-09-26,Interest Income,Debit,13119.0,Cash Reserves,200404.2999999996
+2024-09-26,Interest Income,Credit,13119.0,Interest Income,104161.0
+2024-09-27,Deposit,Credit,50504.4,Customer Deposits,5414407.700000001
+2024-09-27,Deposit,Debit,50504.4,Cash Reserves,250908.6999999996
+2024-09-27,Deposit Fee,Credit,5611.6,Fee Income,266816.3
+2024-09-27,Loan Disbursed,Debit,220796.1,Loans Outstanding,3976579.0999999996
+2024-09-27,Loan Disbursed,Credit,220796.1,Cash Reserves,30112.5999999996
+2024-09-27,Loan Fee,Credit,24532.9,Fee Income,291349.2
+2024-09-27,Client Payment,Debit,5273.0,Customer Deposits,5409134.700000001
+2024-09-27,Client Payment,Credit,5273.0,Cash Reserves,24839.5999999996
+2024-09-27,Interest Income,Debit,9984.0,Cash Reserves,34823.5999999996
+2024-09-27,Interest Income,Credit,9984.0,Interest Income,114145.0
+2024-09-28,Deposit,Credit,10401.3,Customer Deposits,5419536.000000001
+2024-09-28,Deposit,Debit,10401.3,Cash Reserves,45224.8999999996
+2024-09-28,Deposit Fee,Credit,1155.7,Fee Income,292504.9
+2024-09-28,Client Payment,Debit,10267.0,Customer Deposits,5409269.000000001
+2024-09-28,Client Payment,Credit,10267.0,Cash Reserves,34957.8999999996
+2024-09-28,Interest Income,Debit,9537.0,Cash Reserves,44494.8999999996
+2024-09-28,Interest Income,Credit,9537.0,Interest Income,123682.0
+2024-09-29,Deposit,Credit,19548.0,Customer Deposits,5428817.000000001
+2024-09-29,Deposit,Debit,19548.0,Cash Reserves,64042.8999999996
+2024-09-29,Deposit Fee,Credit,2172.0,Fee Income,294676.9
+2024-09-29,Client Payment,Debit,21267.0,Customer Deposits,5407550.000000001
+2024-09-29,Client Payment,Credit,21267.0,Cash Reserves,42775.8999999996
+2024-09-29,Interest Income,Debit,11609.0,Cash Reserves,54384.8999999996
+2024-09-29,Interest Income,Credit,11609.0,Interest Income,135291.0
+2024-09-30,Deposit,Credit,14871.6,Customer Deposits,5422421.600000001
+2024-09-30,Deposit,Debit,14871.6,Cash Reserves,69256.4999999996
+2024-09-30,Deposit Fee,Credit,1652.4,Fee Income,296329.30000000005
+2024-09-30,Client Payment,Debit,26874.0,Customer Deposits,5395547.600000001
+2024-09-30,Client Payment,Credit,26874.0,Cash Reserves,42382.49999999961
+2024-09-30,Interest Income,Debit,11297.0,Cash Reserves,53679.49999999961
+2024-09-30,Interest Income,Credit,11297.0,Interest Income,146588.0
+2024-10-01,Deposit,Credit,38366.1,Customer Deposits,5433913.7
+2024-10-01,Deposit,Debit,38366.1,Cash Reserves,92045.5999999996
+2024-10-01,Deposit Fee,Credit,4262.9,Fee Income,300592.20000000007
+2024-10-01,Client Payment,Debit,17000.0,Customer Deposits,5416913.7
+2024-10-01,Client Payment,Credit,17000.0,Cash Reserves,75045.5999999996
+2024-10-01,Interest Income,Debit,8599.0,Cash Reserves,83644.5999999996
+2024-10-01,Interest Income,Credit,8599.0,Interest Income,155187.0
+2024-10-02,Deposit,Credit,58720.5,Customer Deposits,5475634.2
+2024-10-02,Deposit,Debit,58720.5,Cash Reserves,142365.0999999996
+2024-10-02,Deposit Fee,Credit,6524.5,Fee Income,307116.70000000007
+2024-10-02,Loan Disbursed,Debit,134834.4,Loans Outstanding,4111413.4999999995
+2024-10-02,Loan Disbursed,Credit,134834.4,Cash Reserves,7530.699999999604
+2024-10-02,Loan Fee,Credit,14981.6,Fee Income,322098.30000000005
+2024-10-02,Client Payment,Debit,25525.0,Customer Deposits,5450109.2
+2024-10-02,Client Payment,Credit,25525.0,Cash Reserves,-17994.300000000396
+2024-10-02,Interest Income,Debit,9306.0,Cash Reserves,-8688.300000000396
+2024-10-02,Interest Income,Credit,9306.0,Interest Income,164493.0
+2024-10-03,Deposit,Credit,85119.3,Customer Deposits,5535228.5
+2024-10-03,Deposit,Debit,85119.3,Cash Reserves,76430.9999999996
+2024-10-03,Deposit Fee,Credit,9457.7,Fee Income,331556.00000000006
+2024-10-03,Client Payment,Debit,15393.0,Customer Deposits,5519835.5
+2024-10-03,Client Payment,Credit,15393.0,Cash Reserves,61037.99999999961
+2024-10-03,Interest Income,Debit,13267.0,Cash Reserves,74304.9999999996
+2024-10-03,Interest Income,Credit,13267.0,Interest Income,177760.0
+2024-10-04,Deposit,Credit,76109.4,Customer Deposits,5595944.9
+2024-10-04,Deposit,Debit,76109.4,Cash Reserves,150414.39999999962
+2024-10-04,Deposit Fee,Credit,8456.6,Fee Income,340012.60000000003
+2024-10-04,Loan Disbursed,Debit,129096.9,Loans Outstanding,4240510.399999999
+2024-10-04,Loan Disbursed,Credit,129096.9,Cash Reserves,21317.49999999962
+2024-10-04,Loan Fee,Credit,14344.1,Fee Income,354356.7
+2024-10-04,Client Payment,Debit,27969.0,Customer Deposits,5567975.9
+2024-10-04,Client Payment,Credit,27969.0,Cash Reserves,-6651.500000000378
+2024-10-04,Interest Income,Debit,8493.0,Cash Reserves,1841.4999999996217
+2024-10-04,Interest Income,Credit,8493.0,Interest Income,186253.0
+2024-10-05,Deposit,Credit,22272.3,Customer Deposits,5590248.2
+2024-10-05,Deposit,Debit,22272.3,Cash Reserves,24113.79999999962
+2024-10-05,Deposit Fee,Credit,2474.7,Fee Income,356831.4
+2024-10-05,Client Payment,Debit,13230.0,Customer Deposits,5577018.2
+2024-10-05,Client Payment,Credit,13230.0,Cash Reserves,10883.799999999621
+2024-10-05,Interest Income,Debit,9512.0,Cash Reserves,20395.79999999962
+2024-10-05,Interest Income,Credit,9512.0,Interest Income,195765.0
+2024-10-06,Deposit,Credit,10629.9,Customer Deposits,5587648.100000001
+2024-10-06,Deposit,Debit,10629.9,Cash Reserves,31025.69999999962
+2024-10-06,Deposit Fee,Credit,1181.1,Fee Income,358012.5
+2024-10-06,Client Payment,Debit,7164.0,Customer Deposits,5580484.100000001
+2024-10-06,Client Payment,Credit,7164.0,Cash Reserves,23861.69999999962
+2024-10-06,Interest Income,Debit,11011.0,Cash Reserves,34872.69999999962
+2024-10-06,Interest Income,Credit,11011.0,Interest Income,206776.0
+2024-10-07,Deposit,Credit,70866.9,Customer Deposits,5651351.000000001
+2024-10-07,Deposit,Debit,70866.9,Cash Reserves,105739.59999999961
+2024-10-07,Deposit Fee,Credit,7874.1,Fee Income,365886.6
+2024-10-07,Client Payment,Debit,26832.0,Customer Deposits,5624519.000000001
+2024-10-07,Client Payment,Credit,26832.0,Cash Reserves,78907.59999999961
+2024-10-07,Interest Income,Debit,12075.0,Cash Reserves,90982.59999999961
+2024-10-07,Interest Income,Credit,12075.0,Interest Income,218851.0
+2024-10-08,Deposit,Credit,72728.1,Customer Deposits,5697247.100000001
+2024-10-08,Deposit,Debit,72728.1,Cash Reserves,163710.6999999996
+2024-10-08,Deposit Fee,Credit,8080.9,Fee Income,373967.5
+2024-10-08,Loan Disbursed,Debit,150097.5,Loans Outstanding,4390607.899999999
+2024-10-08,Loan Disbursed,Credit,150097.5,Cash Reserves,13613.199999999604
+2024-10-08,Loan Fee,Credit,16677.5,Fee Income,390645.0
+2024-10-08,Client Payment,Debit,10872.0,Customer Deposits,5686375.100000001
+2024-10-08,Client Payment,Credit,10872.0,Cash Reserves,2741.199999999604
+2024-10-08,Interest Income,Debit,10311.0,Cash Reserves,13052.199999999604
+2024-10-08,Interest Income,Credit,10311.0,Interest Income,229162.0
+2024-10-09,Deposit,Credit,78981.3,Customer Deposits,5765356.4
+2024-10-09,Deposit,Debit,78981.3,Cash Reserves,92033.4999999996
+2024-10-09,Deposit Fee,Credit,8775.7,Fee Income,399420.7
+2024-10-09,Loan Disbursed,Debit,73542.6,Loans Outstanding,4464150.499999999
+2024-10-09,Loan Disbursed,Credit,73542.6,Cash Reserves,18490.8999999996
+2024-10-09,Loan Fee,Credit,8171.4,Fee Income,407592.10000000003
+2024-10-09,Client Payment,Debit,23503.0,Customer Deposits,5741853.4
+2024-10-09,Client Payment,Credit,23503.0,Cash Reserves,-5012.100000000399
+2024-10-09,Interest Income,Debit,13779.0,Cash Reserves,8766.899999999601
+2024-10-09,Interest Income,Credit,13779.0,Interest Income,242941.0
+2024-10-10,Deposit,Credit,59172.3,Customer Deposits,5801025.7
+2024-10-10,Deposit,Debit,59172.3,Cash Reserves,67939.1999999996
+2024-10-10,Deposit Fee,Credit,6574.7,Fee Income,414166.80000000005
+2024-10-10,Client Payment,Debit,16013.0,Customer Deposits,5785012.7
+2024-10-10,Client Payment,Credit,16013.0,Cash Reserves,51926.199999999604
+2024-10-10,Interest Income,Debit,11824.0,Cash Reserves,63750.199999999604
+2024-10-10,Interest Income,Credit,11824.0,Interest Income,254765.0
+2024-10-11,Deposit,Credit,19143.0,Customer Deposits,5804155.7
+2024-10-11,Deposit,Debit,19143.0,Cash Reserves,82893.1999999996
+2024-10-11,Deposit Fee,Credit,2127.0,Fee Income,416293.80000000005
+2024-10-11,Client Payment,Debit,9293.0,Customer Deposits,5794862.7
+2024-10-11,Client Payment,Credit,9293.0,Cash Reserves,73600.1999999996
+2024-10-11,Interest Income,Debit,12511.0,Cash Reserves,86111.1999999996
+2024-10-11,Interest Income,Credit,12511.0,Interest Income,267276.0
+2024-10-12,Deposit,Credit,17932.5,Customer Deposits,5812795.2
+2024-10-12,Deposit,Debit,17932.5,Cash Reserves,104043.6999999996
+2024-10-12,Deposit Fee,Credit,1992.5,Fee Income,418286.30000000005
+2024-10-12,Loan Disbursed,Debit,74875.5,Loans Outstanding,4539025.999999999
+2024-10-12,Loan Disbursed,Credit,74875.5,Cash Reserves,29168.199999999604
+2024-10-12,Loan Fee,Credit,8319.5,Fee Income,426605.80000000005
+2024-10-12,Client Payment,Debit,23286.0,Customer Deposits,5789509.2
+2024-10-12,Client Payment,Credit,23286.0,Cash Reserves,5882.199999999604
+2024-10-12,Interest Income,Debit,10091.0,Cash Reserves,15973.199999999604
+2024-10-12,Interest Income,Credit,10091.0,Interest Income,277367.0
+2024-10-13,Deposit,Credit,45028.8,Customer Deposits,5834538.0
+2024-10-13,Deposit,Debit,45028.8,Cash Reserves,61001.99999999961
+2024-10-13,Deposit Fee,Credit,5003.2,Fee Income,431609.00000000006
+2024-10-13,Client Payment,Debit,10505.0,Customer Deposits,5824033.0
+2024-10-13,Client Payment,Credit,10505.0,Cash Reserves,50496.99999999961
+2024-10-13,Interest Income,Debit,14527.0,Cash Reserves,65023.99999999961
+2024-10-13,Interest Income,Credit,14527.0,Interest Income,291894.0
+2024-10-14,Deposit,Credit,11247.3,Customer Deposits,5835280.3
+2024-10-14,Deposit,Debit,11247.3,Cash Reserves,76271.29999999961
+2024-10-14,Deposit Fee,Credit,1249.7,Fee Income,432858.70000000007
+2024-10-14,Client Payment,Debit,26430.0,Customer Deposits,5808850.3
+2024-10-14,Client Payment,Credit,26430.0,Cash Reserves,49841.29999999961
+2024-10-14,Interest Income,Debit,6728.0,Cash Reserves,56569.29999999961
+2024-10-14,Interest Income,Credit,6728.0,Interest Income,298622.0
+2024-10-15,Deposit,Credit,28644.3,Customer Deposits,5837494.6
+2024-10-15,Deposit,Debit,28644.3,Cash Reserves,85213.59999999961
+2024-10-15,Deposit Fee,Credit,3182.7,Fee Income,436041.4000000001
+2024-10-15,Client Payment,Debit,8758.0,Customer Deposits,5828736.6
+2024-10-15,Client Payment,Credit,8758.0,Cash Reserves,76455.59999999961
+2024-10-15,Interest Income,Debit,5810.0,Cash Reserves,82265.59999999961
+2024-10-15,Interest Income,Credit,5810.0,Interest Income,304432.0
