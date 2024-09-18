@@ -1,0 +1,11 @@
+entry_id,date,transaction_id,account,debit,credit,description
+11,2024-08-21,6,Cash/Bank,104.42,0.0,Deposit from Client 1
+12,2024-08-21,6,Client 1 Account,0.0,104.42,Deposit to Client 1 Account
+13,2024-08-21,7,Cash/Bank,558.27,0.0,Deposit from Client 2
+14,2024-08-21,7,Client 2 Account,0.0,558.27,Deposit to Client 2 Account
+15,2024-08-21,8,Client 3 Account,812.56,0.0,Withdrawal from Client 3 Account
+16,2024-08-21,8,Cash/Bank,0.0,812.56,Withdrawal to Client 3
+17,2024-08-21,9,Client 4 Account,608.32,0.0,Withdrawal from Client 4 Account
+18,2024-08-21,9,Cash/Bank,0.0,608.32,Withdrawal to Client 4
+19,2024-08-21,10,Client 5 Account,995.53,0.0,Loan Payment from Client 5
+20,2024-08-21,10,Loan Receivable,0.0,995.53,Loan Payment Received from Client 5
