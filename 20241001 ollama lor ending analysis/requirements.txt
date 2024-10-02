@@ -1,0 +1,9 @@
+requests
+tqdm
+scikit-learn
+matplotlib
+pandas
+numpy
+adjustText
+textblob
+seaborn
