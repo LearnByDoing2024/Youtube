@@ -1,16 +1,16 @@
-# Enhanced LangChain with LM Studio: GDPR Fine Analysis
+# Enhanced Prompting: Road to LangChain - GDPR Fine Analysis
 
-A sophisticated implementation combining LangChain and LM Studio for analyzing GDPR fines and regulations. This project demonstrates advanced RAG (Retrieval-Augmented Generation) techniques using local LLMs for processing and analyzing GDPR-related data.
+A sophisticated implementation demonstrating enhanced prompting techniques for GDPR fine analysis, as part of the journey towards LangChain implementation. This project showcases advanced prompt engineering and local LLM integration for processing and analyzing GDPR-related data.
 
 ## 📺 Video Tutorial
 Watch the step-by-step implementation on YouTube:
-[Enhanced LangChain Implementation Tutorial](https://youtu.be/Rv3WNMkvWWY)
+[Enhanced Prompting Implementation Tutorial](https://youtu.be/Rv3WNMkvWWY)
 
 ## 🌟 Key Features
-- Custom vector store implementation for efficient document retrieval
+- Advanced prompt engineering for efficient document retrieval
 - Integration with local LLMs through LM Studio
 - GDPR fine analysis from multiple data sources
-- Advanced text processing and embedding using Universal Sentence Encoder
+- Sophisticated text processing and embedding using Universal Sentence Encoder
 - Debug information generation for transparency
 - Interactive HTML report generation
 
@@ -23,7 +23,7 @@ Watch the step-by-step implementation on YouTube:
 - News articles related to GDPR violations
 
 ### Technical Implementation
-- Custom `SimpleVectorStore` class for document storage and retrieval
+- Enhanced prompt engineering techniques
 - NLTK-based text processing
 - TensorFlow Hub's Universal Sentence Encoder for embeddings
 - Local LLM integration via LM Studio
@@ -73,18 +73,18 @@ python langchain_lmstudio_4.py
 
 ## ⚙️ Configuration
 - Adjust token limits in the code for different performance requirements
-- Modify vector store parameters for different retrieval characteristics
+- Modify prompt parameters for different retrieval characteristics
 - Customize HTML templates for different reporting needs
 
 ## 🔍 Debug Features
 - Detailed processing logs
-- Vector store state visualization
+- Prompt effectiveness visualization
 - Query-response tracking
 - Embedding analysis tools
 
 ## 🤝 Contributing
 Contributions are welcome! Areas for improvement:
-- Enhanced data preprocessing
+- Enhanced prompt engineering techniques
 - Additional data sources integration
 - UI/UX improvements
 - Performance optimizations
