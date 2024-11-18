@@ -2,6 +2,18 @@
 
 Welcome to my YouTube Projects Repository! This collection showcases various data science, machine learning, and AI projects demonstrated on my YouTube channel. Each project is designed to explore different aspects of modern technology and provide practical implementations.
 
+## 🌐 Connect With Me
+- [📺 YouTube Channel - Learn by Doing](https://www.youtube.com/@learnbydoingwithsteven)
+- [📺 YouTube Channel - Steven学以致用](https://www.youtube.com/@Steven学以致用)
+- [☕ Buy Me a Coffee](https://buymeacoffee.com/learnbydoing)
+- [💬 Join My Discord](https://discord.gg/TyDaMKAV)
+- [💻 GitHub Profile](https://github.com/learnbydoingwithsteven)
+- [🎵 TikTok - Learn by Doing](https://www.tiktok.com/@learn.by.doing4)
+- [🎶 Spotify Podcast CN](https://spotifyanchor-web.app.link/e/To7ArGnHZNb)
+- [🎶 Spotify Podcast EN](https://spotifyanchor-web.app.link/e/ZHi3LoLHZNb)
+- [🔗 LinkedIn - Steven W.](https://www.linkedin.com/in/steven-w-6828a31bb)
+- [✖️ X - Catchingtides](https://x.com/Catchingtides)
+
 ## 🚀 Project Categories
 
 ### AI and Large Language Models
