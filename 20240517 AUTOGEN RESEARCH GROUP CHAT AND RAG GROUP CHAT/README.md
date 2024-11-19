@@ -1,9 +1,15 @@
 # AutoGen Research Group Chat with RAG Integration
 
-An advanced implementation showcasing AutoGen's group chat capabilities combined with Retrieval-Augmented Generation (RAG) for complex business scenarios. This project demonstrates how multiple AI agents can collaborate to solve sophisticated business problems like internal auditing and AML policy creation.
+An advanced implementation showcasing AutoGen's group chat capabilities combined with Retrieval-Augmented Generation (RAG) for complex business scenarios. This project demonstrates how multiple AI agents can collaborate to solve sophisticated business problems like internal auditing and AML policy creation. Watch the tutorial on [Learn By Doing with Steven YouTube Channel](https://youtu.be/your-video-id).
 
-## Video Tutorial
-Coming soon...
+## Project Structure
+```
+├── 20240517 autogen research agent sample.ipynb  # Main implementation notebook
+├── 20240517 autogen research agent sample.md     # Documentation and examples
+├── 20240516 internal audit debugger.ipynb        # Debugging and testing notebook
+├── 20240516 md.md                               # Additional documentation
+└── 20240516 md1.md                              # Additional documentation
+```
 
 ## Key Features
 - Multi-agent group chat implementation using AutoGen
@@ -42,23 +48,21 @@ Coming soon...
 - Scenario-based validation
 - Effectiveness assessment
 
-## Technical Implementation
-
-### Files Structure
-- `20240517 autogen research agent sample.ipynb`: Main implementation notebook
-- `20240517 autogen research agent sample.md`: Documentation and examples
-- `20240516 internal audit debugger.ipynb`: Debugging and testing notebook
-- `20240516 md.md` & `20240516 md1.md`: Additional documentation
-
-### Configuration Options
-- Customizable speaker selection methods
-- Flexible agent transition rules
-- History management
-- Introduction protocols
+## Prerequisites
+- Python 3.8+
+- AutoGen library
+- Basic understanding of RAG systems
+- Knowledge of compliance frameworks
 
 ## Usage
 
-1. Configure Agent Settings:
+1. Clone the repository:
+```bash
+git clone https://github.com/learnbydoingwithsteven/Youtube.git
+cd "20240517 AUTOGEN RESEARCH GROUP CHAT AND RAG GROUP CHAT"
+```
+
+2. Configure Agent Settings:
 ```python
 config = {
     "speaker_selection_method": "auto",
@@ -67,7 +71,7 @@ config = {
 }
 ```
 
-2. Initialize Group Chat:
+3. Initialize Group Chat:
 ```python
 group_chat = GroupChat(
     agents=[cco, internal_auditor, operations_manager],
@@ -76,7 +80,7 @@ group_chat = GroupChat(
 )
 ```
 
-3. Run Simulations:
+4. Run Simulations:
 ```python
 chat_manager.initiate_chat(
     message="Create an internal audit policy for transaction monitoring"
@@ -106,12 +110,40 @@ chat_manager.initiate_chat(
 - Configuration options
 - Best practices and examples
 
+## Best Practices
+- Regular agent behavior validation
+- Comprehensive error handling
+- Clear conversation boundaries
+- Proper state management
+- Performance optimization
+
 ## Contributing
-Contributions welcome in:
+We welcome contributions in:
 - Additional agent roles
 - New use case implementations
 - Enhanced RAG capabilities
 - Documentation improvements
+- Testing and validation
 
 ## License
-This project is open source and available under the MIT License.
+This project is licensed under the Apache License 2.0 - see the LICENSE file for details.
+
+Copyright 2024 Learn By Doing With Steven (YouTube Channel)
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+## Acknowledgments
+- AutoGen development team
+- RAG framework contributors
+- Open-source community
+- All contributors and users
