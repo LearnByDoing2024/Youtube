@@ -1,6 +1,6 @@
 # AutoGen Code Executor Demo
 
-This project demonstrates the usage of AutoGen's code execution capabilities, specifically focusing on the `LocalCommandLineCodeExecutor` for running Python code blocks.
+This project demonstrates the usage of AutoGen's code execution capabilities, specifically focusing on the `LocalCommandLineCodeExecutor` for running Python code blocks. Watch the full tutorial on [Learn By Doing with Steven YouTube Channel](https://www.youtube.com/).
 
 ## Overview
 
@@ -18,17 +18,19 @@ The demo showcases how to:
 - `README.md`: Project documentation
 
 ### Key Features
-- Local command line code execution
-- Temporary directory management
-- Matplotlib visualization generation
-- AutoGen agent configuration
+- 🔧 Local command line code execution
+- 📁 Temporary directory management
+- 📊 Matplotlib visualization generation
+- 🤖 AutoGen agent configuration
 
 ## Technical Implementation
 
-### Dependencies
-```python
-pip install autogen matplotlib numpy
-```
+### Prerequisites
+- Python 3.8+
+- Required packages:
+  ```bash
+  pip install autogen matplotlib numpy
+  ```
 
 ### Code Structure
 1. **Setup Code Executor**
@@ -66,12 +68,34 @@ The execution produces:
 - Code execution is performed in a temporary directory
 - Timeout limits prevent infinite loops
 - Human input verification for safety
+- Restricted file system access
+
+## Best Practices
+- Always review code before execution
+- Set appropriate timeouts
+- Use temporary directories
+- Implement proper error handling
 
 ## Contributing
-Feel free to contribute to this project by:
-- Submitting issues
-- Proposing new features
-- Creating pull requests
+We welcome contributions:
+- Bug reports
+- Feature requests
+- Documentation improvements
+- Code contributions
 
 ## License
-This project is part of the YouTube tutorial series by Learn By Doing with Steven.
+This project is licensed under the Apache License 2.0 - see the LICENSE file for details.
+
+Copyright 2024 Learn By Doing With Steven (YouTube Channel)
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
