@@ -91,7 +91,7 @@ We welcome contributions:
 ## License
 This project is licensed under the Apache License 2.0 - see the LICENSE file for details.
 
-Copyright 2024 Steven Wang
+Copyright 2024 Learn By Doing With Steven (YouTube Channel)
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
