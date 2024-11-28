@@ -1,0 +1,17 @@
+[
+    {
+        "title": "publications - How do I reference the Python programming language in a ...",
+        "href": "https://academia.stackexchange.com/questions/5482/how-do-i-reference-the-python-programming-language-in-a-thesis-or-a-paper",
+        "body": "Side note: if you're an academic writing an open-source software package that you think will be used by other academics, why not submit a paper announcing its existence to the Journal of Open Source Software, then there'll be something clear for people to cite, and the referees can be very helpful in refining the software. (Having said that, my last submission there was desk-rejected because ..."
+    },
+    {
+        "title": "Citing Programming Code - Computer Science & Computer Engineering ...",
+        "href": "https://uark.libguides.com/CSCE/CitingCode",
+        "body": "To cite either a computer program or piece of source code you will need the following information: - Author(s) name (Individual or corporation) ... - Web address or publisher (e.g. program publisher, URL) When writing a report and citing within the text, the following method (based on common IEEE and ACM citiation rules for other types of ..."
+    },
+    {
+        "title": "leonoverweel/bibtex-python-package-citations - GitHub",
+        "href": "https://github.com/leonoverweel/bibtex-python-package-citations",
+        "body": "Many citations come from the SciPy citing guide (which doesn't have BibTeX entries for most citations). Thanks to Lynn (Tristan) Pepin for adding lots of citations to this page!. If this resource was useful to you, please consider checking the following as well: Dynamically Typed: My thoughts and links on productized artificial intelligence, machine learning technology, and the tech/startup ..."
+    }
+]

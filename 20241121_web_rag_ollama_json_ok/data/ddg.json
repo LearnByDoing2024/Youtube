@@ -1,0 +1,17 @@
+[
+    {
+        "title": "What is a Large Language Model (LLM) - GeeksforGeeks",
+        "href": "https://www.geeksforgeeks.org/large-language-model-llm/",
+        "body": "Artificial Intelligence (AI) has witnessed exponential growth, with language models at the forefront of many transformative applications. Three key players in this space, Gemma, Gemini, and LLMs (Large Language Models), represent cutting-edge advancements in AI-driven conversational agents and data processing."
+    },
+    {
+        "title": "Large language model - Wikipedia",
+        "href": "https://en.wikipedia.org/wiki/Large_language_model",
+        "body": "A large language model (LLM) is a type of computational model designed for natural language processing tasks such as language generation.As language models, LLMs acquire these abilities by learning statistical relationships from vast amounts of text during a self-supervised and semi-supervised training process. [1]The largest and most capable LLMs are artificial neural networks built with a ..."
+    },
+    {
+        "title": "What are LLMs, and how are they used in generative AI?",
+        "href": "https://www.computerworld.com/article/1627101/what-are-large-language-models-and-how-are-they-used-in-generative-ai.html",
+        "body": "So, what is an LLM? An LLM is a machine-learning neuro network trained through data input/output sets; frequently, the text is unlabeled or uncategorized, and the model is using self-supervised or ..."
+    }
+]
